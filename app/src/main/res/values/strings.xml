@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Book app</string>
+
+    <string name="intro_info">Library is empty now. \n
+        For adding new item into database, click on yellow button.</string>
+
+    //listView parameters
+    <string name="category_unknown1">Name</string>
+    <string name="category_unknown2">Price</string>
+    <string name="category_unknown3">Stock</string>
+    <string name="category_unknown4">Category</string>
+
+    //menu main strings
+    <string name="insert_dummy_data">insert dummy data</string>
+    <string name="delete_all_entries">delete all entries</string>
+
+    //edit layout
+    <string name="editor_activity_title_edit_book">Edit book</string>
+    <string name="selling_icon">selling icon</string>
+    <string name="book_name">Book name</string>
+    <string name="book_category">Book category</string>
+    <string name="in_stock">Quantity</string>
+    <string name="book_info_title">Book information</string>
+    <string name="price">Price</string>
+    <string name="supplier_info">Supplier information</string>
+    <string name="supplier">Supplier</string>
+    <string name="phone">Phone</string>
+    <string name="e_mail">E-mail</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="minus">minus</string>
+    <string name="plus">plus</string>
+    <string name="btn_phone">phone button</string>
+    <string name="btn_email">email button</string>
+    <string name="name_of_the_book">name of the book</string>
+    <string name="category_of_the_book">category of the book</string>
+    <string name="price_of_the_book">price of the book</string>
+    <string name="supplier_phone">supplier phone number</string>
+    <string name="supplier_email">supplier email address</string>
+    <string name="supplier_name">supplier name</string>
+
+    //book category
+    <string name="category_unknown">Unknown</string>
+    <string name="category_action_adventure">Action and Adventure</string>
+    <string name="category_drama">Drama</string>
+    <string name="category_horror">Horror</string>
+    <string name="category_children">Children\'s</string>
+    <string name="category_mystery">Mystery</string>
+    <string name="category_romance">Romance</string>
+    <string name="category_satire">Satire</string>
+    <string name="category_scifi">Science fiction</string>
+    <string name="category_travel">Travel</string>
+
+    <string name="image">image</string>
+
+    //book editing notification
+    <string name="new_book">Add new book</string>
+    <string name="add_book_failed">Adding a new book failed.</string>
+    <string name="add_book_successful">New book was successfully saved.</string>
+    <string name="update_book_failed">Update failed.</string>
+    <string name="update_book_successful">Update was successful.</string>
+    <string name="delete_book_failed">Delete failed.</string>
+    <string name="delete_book_successful">Book was deleted.</string>
+
+    <string name="discard">Discard changes</string>
+    <string name="keep_edit">Continue with editing</string>
+    <string name="unsaved_changes">Discard changes and quit editing?</string>
+    <string name="delete_msg">Delete this item?</string>
+    <string name="cancel">Cancel</string>
+
+    //info messages
+    <string name="quantity_cannot_be_empty">Quantity cannot be 0.</string>
+    <string name="quantity_cannot_be_less_0">Quantity cannot be less than 0.</string>
+    <string name="question_price">Add price of the book.</string>
+    <string name="question_quantity">Add quantity.</string>
+    <string name="question_supplier">Add supplier.</string>
+    <string name="question_supplier_phone">Add supplier phone number.</string>
+    <string name="question_supplier_email">Add supplier email address.</string>
+
+    <string name="fill_blank">Fill the blank lines, please!</string>
+
+    <string name="currency_symbol">$</string>
+
+    //email data
+    <string name="email_subject">Order of:</string>
+    <string name="email_subject2">book from Book app</string>
+    <string name="email_body1">Hello</string>
+    <string name="email_body2">I would like to order</string>
+    <string name="email_body3"> book from your offer.</string>
+    <string name="email_body4">Could you tell me when</string>
+    <string name="email_body5">book will be available again?</string>
+
+    //dummy data
+    <string name="example_book_name">Harry Potter and the Prisoner of Azkaban</string>
+    <string name="example_supplier">Bloomsbury Press</string>
+    <string name="example_supplier_phone">123 456 789</string>
+    <string name="example_supplier_email">test@test.com</string>
+    <string name="msg_rows_deteted">Rows deleted from books database.</string>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- These are the options displayed in the category drop-down Spinner -->
+    <string-array name="array_book_category">
+        <item>@string/category_unknown</item>
+        <item>@string/category_action_adventure</item>
+        <item>@string/category_drama</item>
+        <item>@string/category_horror</item>
+        <item>@string/category_children</item>
+        <item>@string/category_mystery</item>
+        <item>@string/category_romance</item>
+        <item>@string/category_satire</item>
+        <item>@string/category_scifi</item>
+        <item>@string/category_travel</item>
+    </string-array>
+</resources>

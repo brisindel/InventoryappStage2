@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/shelve"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:padding="@dimen/dim8">
+
+    <RelativeLayout
+        android:id="@+id/info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:paddingLeft="@dimen/dim8">
+
+        <TextView
+            android:id="@+id/book_name"
+            style="@style/TVListItem"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            tools:text="@string/category_unknown1" />
+
+        <TextView
+            android:id="@+id/book_price"
+            style="@style/TVListItem"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/book_name"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            tools:text="@string/category_unknown2" />
+
+        <TextView
+            android:id="@+id/book_in_stock"
+            style="@style/TVListItem"
+            android:layout_alignLeft="@+id/book_name"
+            android:layout_alignStart="@+id/book_name"
+            android:layout_below="@+id/book_name"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            tools:text="@string/category_unknown3" />
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/sell_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/book_price"
+        android:layout_marginLeft="@dimen/dim16"
+        android:layout_toEndOf="@+id/book_price"
+        android:layout_toRightOf="@+id/book_price"
+        android:background="@drawable/ic_instock"
+        android:contentDescription="@string/selling_icon" />
+
+</LinearLayout>
