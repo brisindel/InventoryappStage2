@@ -1,10 +1,5 @@
 package com.example.android.inventoryappstage2;
 
-/**
- * Created by uLeho on 05.07.2018.
- */
-
-
 import android.content.ContentUris;
 import android.content.ContentValues;
 import android.content.Context;

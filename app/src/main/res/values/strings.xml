@@ -8,7 +8,6 @@
     <string name="category_unknown1">Name</string>
     <string name="category_unknown2">Price</string>
     <string name="category_unknown3">Stock</string>
-    <string name="category_unknown4">Category</string>
 
     //menu main strings
     <string name="insert_dummy_data">insert dummy data</string>
@@ -69,7 +68,7 @@
     <string name="cancel">Cancel</string>
 
     //info messages
-    <string name="quantity_cannot_be_empty">Quantity cannot be 0.</string>
+    <string name="quantity_cannot_be_empty">Quantity cannot be empty.</string>
     <string name="quantity_cannot_be_less_0">Quantity cannot be less than 0.</string>
     <string name="question_price">Add price of the book.</string>
     <string name="question_quantity">Add quantity.</string>

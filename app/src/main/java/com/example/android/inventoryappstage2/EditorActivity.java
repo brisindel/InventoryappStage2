@@ -187,20 +187,16 @@ public class EditorActivity extends AppCompatActivity implements
             public void onClick(View v) {
 
                 String quantity = mQuantityEditText.getText().toString();
-                if (TextUtils.isEmpty(quantity)) {
+                if (!TextUtils.isEmpty(quantity)) {
 
-                    //If givenQuantity is empty set 1; if is more set ++
-                    givenQuantity = 0;
-                    mQuantityEditText.setText(String.valueOf(givenQuantity + 1));
+                    mQuantityEditText.setText(String.valueOf(givenQuantity++));
 
-                    return;
-                } else if (givenQuantity > 0) {
-                    mQuantityEditText.setText(String.valueOf(givenQuantity + 1));
                 } else {
-                    mQuantityEditText.setText(String.valueOf(givenQuantity + 1));
-                    return;
-                }
+                    //If givenQuantity is empty set 1; if is more set ++
+                    mQuantityEditText.setText(String.valueOf(givenQuantity = 1));
 
+
+                }
             }
         });
 
@@ -213,7 +209,6 @@ public class EditorActivity extends AppCompatActivity implements
 
                     //Toast information that Quantity can not be empty
                     Toast.makeText(EditorActivity.this, string.quantity_cannot_be_empty, Toast.LENGTH_SHORT).show();
-                    return;
                 } else {
                     givenQuantity = Integer.parseInt(quantity);
                     //To validate if quantity is greater than 0
@@ -239,7 +234,6 @@ public class EditorActivity extends AppCompatActivity implements
             public void onClick(View v) {
                 String PhoneNum = mPhoneEditText.getText().toString().trim();
                 orderByPhone(PhoneNum);
-
             }
         });
 
@@ -255,7 +249,6 @@ public class EditorActivity extends AppCompatActivity implements
                 String bookName = mNameEditText.getText().toString().trim();
 
                 orderByEmail(emailAddress, bookName, inStock, supplier);
-
             }
         });
     }

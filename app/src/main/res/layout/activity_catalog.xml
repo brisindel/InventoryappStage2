@@ -22,7 +22,6 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/empty_bookshelves"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
@@ -31,7 +30,6 @@
             android:src="@drawable/bcg_emptybookshelves" />
 
         <TextView
-            android:id="@+id/intro"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
